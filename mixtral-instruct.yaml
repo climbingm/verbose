@@ -1,14 +1,14 @@
-name: "Alpaca-Instruct-7b"
+name: "Mixtral-Instruct-8x7b"
 license: "N/A"
 urls:
-- https://huggingface.co/allenai/open-instruct-stanford-alpaca-7b/tree/main
+- https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/tree/main
 description: |
-    Open-Instruct Stanford Alpaca Model in the 7b Version
+    Mixtral Instruct Model
 config_file: |
-    parameters:
-      model: pytorch_model-00003-of-00003.bin
-    backend: llama
-    embeddings: no
+  name: Mixtral-Instruct-8x7b
+  backend: llama
+  parameters:
+    model: mixtral-8x7b-instruct-v0.1.Q2_K
 files:
     - filename: "mixtral-8x7b-instruct-v0.1.Q2_K.gguf"
       sha256: "d54b4f4ec06dbae558d25b2d1542417cdf9547907342db85eecd05b6e96e88f8"
