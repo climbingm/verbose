@@ -9,8 +9,11 @@ config_file: |
   backend: llama
   parameters:
     model: mixtral-8x7b-instruct-v0.1.Q2_K.gguf
+    top_k: 80
+    temperature: 0.2
+    top_p: 0.7
 files:
     - filename: "mixtral-8x7b-instruct-v0.1.Q2_K.gguf"
       sha256: "d54b4f4ec06dbae558d25b2d1542417cdf9547907342db85eecd05b6e96e88f8"
-      uri: "https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q2_K.gguf?download=true"    
+      uri: "https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q2_K.gguf"
     
