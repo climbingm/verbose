@@ -1,0 +1,17 @@
+name: "Guanaco-13B"
+license: "llama2"
+urls:
+- https://huggingface.co/TheBloke/llama-2-13B-Guanaco-QLoRA-GGUF/tree/main
+description: |
+    This is a Llama-2 version of Guanaco.
+config_file: |
+  name: Guanaco-13B
+  backend: llama
+  parameters:
+    model: llama-2-13b-guanaco-qlora.Q5_K_M.gguf
+    temperature: 0.2
+    max_tokens: 150
+files:
+    - filename: "llama-2-13b-guanaco-qlora.Q5_K_M.gguf"
+      sha256: "1943aaa721a77adbcdfdd4cc126b1a166ad0b701302fd89c5a214e55f8860d0a"
+      uri: "https://huggingface.co/TheBloke/llama-2-13B-Guanaco-QLoRA-GGUF/resolve/main/llama-2-13b-guanaco-qlora.Q5_K_M.gguf"
