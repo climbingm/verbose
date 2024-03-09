@@ -12,6 +12,7 @@ config_file: |
     top_k: 80
     temperature: 0.7
     top_p: 0.7
+    max_tokens: 250
 files:
     - filename: "mixtral-8x7b-instruct-v0.1.Q2_K.gguf"
       sha256: "d54b4f4ec06dbae558d25b2d1542417cdf9547907342db85eecd05b6e96e88f8"
