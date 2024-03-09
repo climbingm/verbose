@@ -1,0 +1,19 @@
+name: "Tiny-Llama"
+license: "N/A"
+urls:
+- https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF/tree/main
+description: |
+    Tiny Llama Chat Model
+config_file: |
+  name: Tiny-Llama
+  backend: llama
+  parameters:
+    model: TinyLlama-1.1B-Chat-v0.3-GGUF
+    top_k: 80
+    temperature: 0.7
+    top_p: 0.7
+    max_tokens: 100
+files:
+    - filename: "TinyLlama-1.1B-Chat-v0.3-GGUF"
+      sha256: "7c255febbf29c97b5d6f57cdf62db2f2bc95c0e541dc72c0ca29786ca0fa5eed"
+      uri: "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF/resolve/main/tinyllama-1.1b-chat-v0.3.Q5_K_M.gguf"
