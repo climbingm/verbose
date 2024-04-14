@@ -1,0 +1,19 @@
+name: "Mixtral-Instruct-Q5"
+license: "N/A"
+urls:
+- https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/tree/main
+description: |
+    Mixtral Instruct Model
+config_file: |
+  name: Mixtral-Instruct-Q5
+  backend: llama
+  parameters:
+    model: mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
+    top_k: 80
+    temperature: 0.7
+    top_p: 0.7
+    max_tokens: 100
+files:
+    - filename: "mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf"
+      sha256: "af12961e014037ee8c5c9f3bf7cf9fd99cadc9dabd50f528a4248c4a8ee8fe77"
+      uri: "https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf"
