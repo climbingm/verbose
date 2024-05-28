@@ -1,0 +1,15 @@
+name: "SQL-Classification-Llama-V4-150"
+license: "N/A"
+urls:
+- https://huggingface.co/climbingm/SQL-Classification-V4.150-GGUF/tree/main
+description: |
+    SQL User Question Classification Model (Fine Tuned TinyLlama)
+config_file: |
+  name: SQL-Classification-Llama-V4-150
+  backend: llama
+  parameters:
+    model: Q4_K_M.gguf
+files:
+    - filename: "Q4_K_M.gguf"
+      sha256: "40b69fd9293beb0cc431bb86cf272fe6ecd7c0152276910541aa1e940f2fcea2"
+      uri: "https://huggingface.co/climbingm/SQL-Classification-V4.150-GGUF/raw/main/Q4_K_M.gguf"
