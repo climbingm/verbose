@@ -12,4 +12,4 @@ config_file: |
 files:
     - filename: "Q4_K_M.gguf"
       sha256: "40b69fd9293beb0cc431bb86cf272fe6ecd7c0152276910541aa1e940f2fcea2"
-      uri: "https://huggingface.co/climbingm/SQL-Classification-V4.150-GGUF/raw/main/Q4_K_M.gguf"
+      uri: "https://huggingface.co/climbingm/SQL-Classification-V4.150-GGUF/resolve/main/Q4_K_M.gguf"
