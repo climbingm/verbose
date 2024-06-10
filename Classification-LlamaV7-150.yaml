@@ -9,6 +9,7 @@ config_file: |
   backend: llama
   parameters:
     model: Q5_K_M.gguf
+    max_tokens: 200
 files:
     - filename: "Q5_K_M.gguf"
       sha256: "5094d59c20de4079c99129840912af15d06691e9085adc7bb616cc3f747a5694"
