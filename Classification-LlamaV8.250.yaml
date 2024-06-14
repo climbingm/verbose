@@ -1,0 +1,16 @@
+name: "SQL-Classification-Llama-V8-250"
+license: "N/A"
+urls:
+- https://huggingface.co/climbingm/SQL-Classification-V8.250-GGUF/tree/main
+description: |
+    SQL User Question Classification Model (Fine Tuned TinyLlama)
+config_file: |
+  name: SQL-Classification-Llama-V8-250
+  backend: llama
+  parameters:
+    model: SQL-Classification-V8.250_FP16.gguf
+    max_tokens: 200
+files:
+    - filename: "SQL-Classification-V8.250_FP16.gguf"
+      sha256: "625991d4ce2c221a60088144dd31141d95d87f24f26f2846119cc11de76ca632"
+      uri: "https://huggingface.co/climbingm/SQL-Classification-V8.250-GGUF/resolve/main/SQL-Classification-V8.250_FP16.gguf"
