@@ -1,0 +1,16 @@
+name: "Cypher-Instruct-3B"
+license: "N/A"
+urls:
+- https://huggingface.co/lakkeo/stable-cypher-instruct-3b/tree/main
+description: |
+    A specialized 3B parameters model beating SoA models such as GPT4-o at generating CYPHER
+config_file: |
+  name: Cypher-Instruct-3B
+  backend: llama
+  parameters:
+    model: stable-cypher-instruct-3b.Q5_K_M.gguf
+    max_tokens: 500
+files:
+    - filename: "stable-cypher-instruct-3b.Q5_K_M.gguf"
+      sha256: "909cbc6f725b67cfdf08b29d8e00bffa0a3d6a20d4a65065edacac6c242f8aba"
+      uri: "https://huggingface.co/lakkeo/stable-cypher-instruct-3b/resolve/main/stable-cypher-instruct-3b.Q5_K_M.gguf"
