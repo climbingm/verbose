@@ -12,5 +12,5 @@ config_file: |
     max_tokens: 200
 files:
     - filename: "Format-Identification-Llama-0.1-Q5_K_M.gguf"
-      sha256: "8a529018df20b0937b8f413b28ed90c9f93a0e1c0a3be2d2cb3592efea4d344d"
+      sha256: "45b71fe98efe5f530b825dce6f5049d738e9c16869f10be4370ab81a9912d4a6"
       uri: "https://huggingface.co/climbingm/Format-Identificator-0.1-GGUF/resolve/main/Format-Identification-Llama-0.1-Q5_K_M.gguf"
