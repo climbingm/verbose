@@ -1,0 +1,15 @@
+name: "Flux.1-schnell"
+license: "N/A"
+urls:
+- https://huggingface.co/city96/FLUX.1-schnell-gguf/tree/main
+description: |
+    Black Forest Labs Flux Model
+config_file: |
+  name: flux1-schnell-Q5_K_S
+  backend: diffusers
+  parameters:
+    model: flux1-schnell-Q5_K_S.gguf
+files:
+    - filename: "flux1-schnell-Q5_K_S.gguf"
+      sha256: "19f63562d9a20d2123288dddd9abb3d5560554e5694ded951aaf6bfafe46b5df"
+      uri: "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q5_K_S.gguf"
